@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.giohang{
+	font-size: 22px !important
+}
+.menu{
+	position: fixed;
+	z-index: 5000px
+}
+.banner{
+	width: 100%;
+	background-image: url("../img/ides_squareroot_0efbbbf2.jpg");
+	height: 100vh;
+
+	
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+z-index: 9999
+}
+/*
+nav{
+	border-bottom: 3px solid #E5F6FF
+}
+*/
+.text{
+	color:#BCFBFF;
+	background-color: #212020;
+	opacity: 0.8;
+
+}
+.logo{
+	-webkit-animation: rotate-scale-down 0.6s linear 3s both;
+	        animation: rotate-scale-down 0.6s linear 3s both;
+}
+
+@-webkit-keyframes rotate-scale-down {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(0.5) rotateZ(180deg);
+            transform: scale(0.5) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+@keyframes rotate-scale-down {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(0.5) rotateZ(180deg);
+            transform: scale(0.5) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+.hinh{
+	background-image: url("../img/daniel-sinoca-UjXGaJHH2jE-unsplash.jpg");
+	width: 100%;
+  height: 1400px; 
+
+  
+}
+@media screen and (max-width:415px){
+	.banner h1{
+		font-size: 2rem!important;
+	}
+	.banner{
+		height: 80vh;
+		padding-top: 20vh
+	}
+	
+	.navbar-brand{
+	width: 50%!important
+}
+.navbar-brand img{
+	width: 50% !important
+}
+	.hinh{
+		height: 1990px
+	}
+	.kc1,.kc3,.kc4,.kc2{
+		margin: 3px!important
+	}
+	.footer{
+		height: 700px
+	}
+	.chucontact h4{
+			font-size: 5px!important;
+		   margin:0 !important;
+		padding:0 !important;
+	}
+	.form-group{
+		width: 50%
+	}
+	.sqa img{
+		width: 10px;
+		margin:0!important;
+		padding:0!important;
+	}
+}
+
+.hinh-1 img{
+	width: 95%;
+	margin-top: 290px;
+	padding-left: 30px;
+	
+}
+.hinh-1{
+	-webkit-animation: slide-top 3s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite alternate both;
+	        animation: slide-top 3s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite alternate both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+	
+}
+
+
+
+.chu{
+	margin-top:350px;
+}
+
+.hinh-2 img{
+	width: 100%;
+	margin-top: 200px;
+	padding-left: 30px;
+	
+}
+.hong{
+	color: #FFE09E
+}
+.modal-content{
+	background-color:transparent !important;
+	border: none
+	
+}
+.kc1 i{
+	background-color:#FDAE80;
+	border: none
+}
+.footer{
+	background-color: #122A43;
+	height: 220px;
+	
+}
+
+.sqa img{
+	width: 60%
+}
+
+
+
+/*about*/
+.aboutbaner{
+	width: 100%;
+	background-image: url("../img/nen-01.jpg");
+	height: 100vh;
+
+  background-position: center;
+  background-size: cover;
+}
+.text-about h6{
+	font-size: 20px;
+   margin: 18px
+}
+.text-about {
+	
+	
+	margin-top: 60px
+}
+/*buy*/
+.soda img{
+	width: 90%;
+	margin-right: 50px;
+
+}
+
+.pick{
+	padding-top: 160px;
+	font-size: 20px
+}
+.jello{
+-webkit-animation: jello-horizontal 0.9s 2s infinite both;
+	        animation: jello-horizontal 0.9s 2s infinite both;
+
+}
+
+
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+/*contact*/
+form{
+	width:80%
+}
+form input,textarea{
+	border: none !important;
+	border: 1px solid  #0A365B !important;
+}
+.contact{
+	width: 100%;
+	background-image: url("../img/image_processing20200811-19962-a26io4.png");
+	height: 100vh;
+
+ 
+  background-size: cover;
+}
+.chucontact{
+	position: absolute;
+	margin-top: 100px
+}
+
+.footertext{
+	padding-top: 30px
+
+}
